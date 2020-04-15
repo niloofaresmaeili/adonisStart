@@ -1,0 +1,13 @@
+<form action="/posts" method="POST">
+    {{csrfField()}}
+    <div>
+        <lable>Title</lable>
+        <input type="text" name="title">
+    </div>
+    <div>
+        <lable>Body</lable>
+        <textarea name="body"></textarea>
+    </div>
+    <br>
+    <button type="submit">submit</button>
+</form>
